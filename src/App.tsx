@@ -500,9 +500,8 @@ function App() {
             </Button>
             <Button 
               size="lg"
-              variant="outline"
               onClick={() => window.open('mailto:hello@itsyourtime.dev', '_blank')}
-              className="text-lg px-8 py-6 border-white text-white hover:bg-white hover:text-gray-900"
+              className="bg-gradient-to-r from-primary to-blue-600 hover:from-primary/90 hover:to-blue-600/90 text-white text-lg px-8 py-6"
             >
               Send Email
               <ArrowRight className="ml-2 h-5 w-5" />
